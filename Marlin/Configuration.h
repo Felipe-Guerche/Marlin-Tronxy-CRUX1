@@ -68,7 +68,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_TRONXY_CXY_446_V10
+  #define MOTHERBOARD BOARD_TRONXY_F446
 #endif
 
 // @section serial
