@@ -20,6 +20,7 @@
  *
  */
 #pragma once
+#include "TronxyMachine.h"
 
 /**
  * Configuration.h
