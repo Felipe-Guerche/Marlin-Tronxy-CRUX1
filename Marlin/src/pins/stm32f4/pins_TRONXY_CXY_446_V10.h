@@ -71,7 +71,7 @@
 //
 // SD Card / Flash Drive
 //
-#define HAS_OTG_USB_HOST_SUPPORT  // USB Flash Drive Support
+//#define HAS_OTG_USB_HOST_SUPPORT  // USB Flash Drive Support
 
 //
 // SD Card
@@ -172,7 +172,7 @@
 //
 // TFT with FSMC interface
 //
-#if HAS_FSMC_TFT
+#if ENABLED(HAS_FSMC_TFT)
   #define LCD_USE_DMA_FSMC
   //#define FSMC_DMA_DEV                    DMA2 // Maple
   //#define FSMC_DMA_CHANNEL             DMA_CH5 // Maple
